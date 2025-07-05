@@ -1,5 +1,8 @@
 # customer_churn_prediction
+
 Table of Contents
+
+
 Project Overview
 
 Problem Statement
@@ -28,7 +31,6 @@ Files in the Repository
 
 Future Work
 
-Contact
 
 1. Project Overview
 This project aims to help a marketing agency predict customer churn (clients discontinuing their service) by leveraging historical customer data. By building a classification model, the agency can identify customers most at risk and proactively assign them an account manager, thereby improving customer retention and reducing churn rates.
