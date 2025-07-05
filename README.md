@@ -1,36 +1,5 @@
 # customer_churn_prediction
 
-Table of Contents
-
-
-Project Overview
-
-Problem Statement
-
-Dataset
-
-Methodology
-
-Data Loading & Initial Inspection
-
-Data Cleaning & Preprocessing
-
-Exploratory Data Analysis (EDA)
-
-Predictive Modeling
-
-Feature Importance
-
-Key Findings & Actionable Insights
-
-Model Performance Summary
-
-How to Run the Project
-
-Files in the Repository
-
-Future Work
-
 
 1. Project Overview
 This project aims to help a marketing agency predict customer churn (clients discontinuing their service) by leveraging historical customer data. By building a classification model, the agency can identify customers most at risk and proactively assign them an account manager, thereby improving customer retention and reducing churn rates.
@@ -145,51 +114,19 @@ Product Engagement: Understanding the relationship between Num_Sites and churn c
 
 Model
 
-Accuracy
-
-Precision
-
-Recall
-
-F1-Score
-
-ROC-AUC
+Accuracy       Precision          Recall          F1-Score          ROC-AUC
 
 Logistic Regression
 
-0.82
-
-0.75
-
-0.68
-
-0.71
-
-0.89
+0.82           0.75               0.68             0.71              0.89
 
 Decision Tree
 
-0.80
-
-0.72
-
-0.65
-
-0.68
-
-0.78
+0.80           0.72               0.65             0.68              0.78
 
 Random Forest
 
-0.85
-
-0.80
-
-0.72
-
-0.76
-
-0.92
+0.85           0.80               0.72             0.76              0.92
 
 Conclusion: The Random Forest Classifier generally performed best, demonstrating strong predictive power for customer churn.
 
@@ -204,8 +141,8 @@ Git (for cloning the repository).
 
 Clone the Repository:
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/aziz-0786/customer_churn_prediction.git
+cd customer_churn_prediction
 
 Create a Virtual Environment (Recommended):
 
@@ -225,18 +162,18 @@ Place Data Files: Ensure customer_churn.csv is in the same directory as the Pyth
 
 Run the Code:
 
-Jupyter Notebook/Google Colab: Open the .ipynb file (if provided) and run all cells.
+Jupyter Notebook/Google Colab: Open the .ipynb file and run all cells.
 
 Python Script: Execute the Python script from your terminal:
 
-python your_script_name.py
+python customer_churn_prediction.ipynb
 
 The script will print outputs to the console and display generated plots.
 
 8. Files in the Repository
 customer_churn.csv: The primary dataset for analysis and model training.
 
-customer_churn_analysis.py (or .ipynb): The main Python script/Jupyter Notebook containing all the code.
+customer_churn_analysis.ipynb : The main Python script/Jupyter Notebook containing all the code.
 
 README.md: This file.
 
